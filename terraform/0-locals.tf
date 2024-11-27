@@ -7,7 +7,7 @@ locals {
     eks_version = "1.31"
     
     //EC2 Jenkins 
-    key-name        = "Aleksey"
+    key-name        = "three-tier-eks-deployment"
     instance-name   = "Jenkins-server"
     sg-name         = "Jenkins-sg"
     iam-role        = "Jenkins-iam-role"
